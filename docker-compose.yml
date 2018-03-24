@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  softwaretracker:
+    image: softwaretracker
+    build:
+      context: .
+      dockerfile: SoftwareTracker\Dockerfile
